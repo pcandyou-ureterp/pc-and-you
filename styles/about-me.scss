@@ -1,0 +1,28 @@
+---
+---
+
+.about-me-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+  > div {
+    padding: 16px;
+  }
+
+  .photo-container {
+    flex: 4;
+  }
+
+  .text-container {
+    flex: 6;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
