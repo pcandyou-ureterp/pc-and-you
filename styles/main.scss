@@ -11,18 +11,18 @@
 
 @font-face {
   font-family: Chivo;
-  src: url(/assets/fonts/Chivo-Light.ttf);
+  src: url({{ site.baseurl }}/assets/fonts/Chivo-Light.ttf);
 }
 
 @font-face {
   font-family: Chivo;
-  src: url(/assets/fonts/Chivo-Bold.ttf);
+  src: url({{ site.baseurl }}/assets/fonts/Chivo-Bold.ttf);
   font-weight: bold;
 }
 
 @font-face {
   font-family: Chivo;
-  src: url(/assets/fonts/Chivo-LightItalic.ttf);
+  src: url({{ site.baseurl }}/assets/fonts/Chivo-LightItalic.ttf);
   font-style: italic;
 }
 
