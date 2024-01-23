@@ -1,15 +1,23 @@
-- name: Gebruiksklaar maken van devices
+- name: Monteren en configureren van netwerk en infrastructuur
+  description: PCandYou biedt ondersteuning bij de installatie, onderhoud en beheren van fysieke of virtuele infrastructuurdevices zoals bijvoorbeeld servers, routers, switches, firewalls, cloud-omgevingen en dataverbindingen. Werkzaamheden worden uitgevoerd op locatie.
 
-- name: Oplossen van problemen bij hardware en software
+- name: Gebruiksklaar maken van devices
+  description: PCandYou maakt gebruikersdevices zoals laptops, pc’s, telefoons, printers en camera’s gereed voor gebruik. We installeren en configureren de gebruikersdevices conform de wensen en eisen van de gebruiker. We voeren de werkzaamheden op afstand of op de locatie uit.
+
+- name: Oplossen van hardware en software problemen
+  description: PCandYou ondersteunt bij autorisatievragen en ontzorgt u bij Hardware en software problemen. De service bestaat onder andere uit reparatie van computer, laptop en andere IT-apparatuur. We analyseren het probleem en lossen het op afstand en/of locatie op.
 
 - name: Installeren, configureren en onderhouden van software
-
-- name: Monteren en configureren van netwerk en infrastructuur
+  description: PCandYou installeert, configureert en onderhoudt software in overleg met de klant. We hebben hierbij expliciet aandacht een diversiteit aan applicaties met verschillende onderhoudseisen en performance vraagstukken, en aandacht voor security. De werkzaamheden vinden vaak deels op locatie plaats.
 
 - name: Advies over hardware en software
+  description: PCandyou denkt graag als consultant mee en adviseert u bij de keuzes die u maakt ten aanzien van hardware en software.
 
-- name: Ondersteuning en deskundigheidsbevoordering bij overgang naar nieuwe devices
+- name: Ondersteuning bij overgang naar nieuwe devices
+  description: PCandYou vindt het belangrijk dat u efficiënt en effectief kunt werken met uw nieuwe device. En dat u daadwerkelijk alle mogelijkheden gebruikt. We nemen graag de tijd om u en/of uw werknemers te begeleiden bij de overgang naar nieuwe devices. We werken hierin op maat, op locatie of op afstand.
 
 - name: Onderhouden van applicaties
+  description: PCandYou installeert en configureert (nieuwe) software/applicaties op diverse platformen voor stand-alone of netwerk gebruik. We verzorgen de technische installatie en stellen gegevens en voorkeuren in voor gebruikers. We lokaliseren mogelijke fouten en lossen deze zo mogelijk op. Naast de installatie, ondersteunen we klanten bij het in gebruik nemen van nieuwe of software/applicaties. Installatie, configuratie en advies vindt in overleg plaats op locatie of op afstand.
 
 - name: Verbeteren van security
+  description: PCandYou adviseert en ondersteunt bij het steeds belangrijker wordende ICT vraagstuk rond security.

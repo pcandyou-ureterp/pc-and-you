@@ -1,9 +1,12 @@
 ---
 ---
 
+@import "media-queries";
+
 :root {
   --dark-color: #272727;
   --mid-color: #5BAE80;
+  --midlight-color: #CDEFD3;
   --light-color: #EFFAF1;
 
   --light-text-color: #FFFFFF;
@@ -51,6 +54,14 @@ header {
     flex-direction: row;
     width: 100%;
 
+    @include respond(mobile) {
+      flex-direction: column;
+      .item:not(:last-child) {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+      }
+    }
+
     .item {
       flex-grow: 1;
       background-color: var(--mid-color);
@@ -58,6 +69,7 @@ header {
       padding: 16px 0;
       text-align: center;
       cursor: pointer;
+      border-color: var(--midlight-color);
 
       &:hover {
         background-color: var(--dark-color);
@@ -93,4 +105,8 @@ a {
   width: 100%;
   height: 256px;
   object-fit: cover;
+}
+
+.italic {
+  font-style: italic;
 }
