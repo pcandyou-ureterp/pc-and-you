@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }}</title>
+    <link rel="shortcut" href="favicon.ico">
     <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/styles/main-info.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/styles/services.css">
@@ -13,5 +14,6 @@
 <body id="section-home">
   {% include header.html %}
   {{ content }}
+  {% include footer.html %}
 </body>
 </html>
