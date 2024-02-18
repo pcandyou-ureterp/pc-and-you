@@ -1,5 +1,5 @@
 
-function onNavElementClick (location) {
+function onNavElementClick(location) {
     const yOffset = -40; 
     const element = document.querySelector(`#section-${location}`);
     const y = element.getBoundingClientRect().top + window.scrollY + yOffset;

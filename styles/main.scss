@@ -89,6 +89,7 @@ section {
 button {
   background-color: var(--mid-color);
   padding: 16px 32px;
+  cursor: pointer;
   border: none;
 
   &:hover {
